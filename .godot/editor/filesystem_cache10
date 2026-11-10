@@ -1,3 +1,11 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1794212534
-icon.svg::CompressedTexture2D::4153600860825003614::1794212533::1794212543::1::::<><><>0<>0<>19da549865ddd8c451d05da4278faf4f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://::1794224541
+icon.svg::CompressedTexture2D::4153600860825003614::1794215345::1794215346::1::::<><><>0<>0<>19da549865ddd8c451d05da4278faf4f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Scens/::1794225010
+main.tscn::PackedScene::8722860339623473385::1794225010::0::1::::<><><>0<>0<><>::uid://d1gnx7mtv1rs::::res://Scripts/clicker.gd<>uid://csx0yq8gc8ae4::::res://Sprite/bg_main.png<>uid://faisifkysxvy::::res://Sprite/bomj.png<>uid://com2aqqr51ky4::::res://Sprite/Bootle.png
+::res://Scripts/::1794227784
+clicker.gd::GDScript::264629127839279892::1794227784::0::1::::<>Node2D<><>0<>0<><>::
+::res://Sprite/::1794215394
+bg_main.png::CompressedTexture2D::6085282916715769421::1794215379::1794215394::1::::<><><>0<>0<>f028969928af1faf29f189c49ca1c3e5<>res://.godot/imported/bg_main.png-e92c080d576df3d80a69b6aaea1af755.ctex::
+bomj.png::CompressedTexture2D::351462526820566094::1794215379::1794215394::1::::<><><>0<>0<>2cecb09155353fdb2401d3428df007fc<>res://.godot/imported/bomj.png-ebad8ec5badae05dd82ab3d4f11d6297.ctex::
+Bootle.png::CompressedTexture2D::5781897936076066885::1794215386::1794215393::1::::<><><>0<>0<>b5b1833d6e11de7628b42d792f5e7685<>res://.godot/imported/Bootle.png-d896a7efa8c9a9546c20f2e1d4798a0d.ctex::

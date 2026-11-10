@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://dwjoiac5nxb58"]
+
+[ext_resource type="Script" uid="uid://d1gnx7mtv1rs" path="res://Scripts/clicker.gd" id="1_2mdcp"]
+[ext_resource type="Texture2D" uid="uid://csx0yq8gc8ae4" path="res://Sprite/bg_main.png" id="1_f7boa"]
+[ext_resource type="Texture2D" uid="uid://faisifkysxvy" path="res://Sprite/bomj.png" id="3_s27x0"]
+[ext_resource type="Texture2D" uid="uid://com2aqqr51ky4" path="res://Sprite/Bootle.png" id="4_7axkf"]
+
+[node name="main" type="Node2D" unique_id=1107610067]
+script = ExtResource("1_2mdcp")
+
+[node name="bg" type="Sprite2D" parent="." unique_id=677151472]
+position = Vector2(540, 959.9999)
+scale = Vector2(0.96256685, 1.3694723)
+texture = ExtResource("1_f7boa")
+metadata/_edit_lock_ = true
+
+[node name="panelInfo" type="Panel" parent="." unique_id=1446977203]
+offset_right = 1080.0
+offset_bottom = 128.0
+metadata/_edit_lock_ = true
+
+[node name="bootle" type="Label" parent="panelInfo" unique_id=1587647682]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 24.0
+offset_right = 169.0
+offset_bottom = 69.0
+theme_override_font_sizes/font_size = 32
+text = "Бутылок: "
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=618521755]
+position = Vector2(332, 1242)
+scale = Vector2(0.8203125, 0.8203125)
+texture = ExtResource("3_s27x0")
+metadata/_edit_lock_ = true
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=306138618]
+offset_left = 568.0
+offset_top = 1376.0
+offset_right = 1008.0
+offset_bottom = 1736.0
+texture_normal = ExtResource("4_7axkf")
+
+[connection signal="button_down" from="TextureButton" to="." method="button_down"]
